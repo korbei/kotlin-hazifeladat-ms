@@ -1,2 +1,0 @@
-### Időjárási adatok előrejelzés 7 nap (órás bontásban)
-GET https://api.open-meteo.com/v1/forecast?latitude=47.4984&longitude=19.0404&hourly=temperature_2m&timezone=auto

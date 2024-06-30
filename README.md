@@ -7,28 +7,22 @@
 4. Egyszerű hibakezelés
 5. Automata teszt(ek)
 
-## Feladat megvalosítása során
-1. Gradle build tool használata (Előkészítve) 
-2. Tetszőleges Framework használata (Spring konfigurálva)
-3. Data class-ok használata
-4. Kotlin Collection Framework használata
-5. Tetszőleges Http kliens
-6. Tetszőleges deserialization library (Jackson konfigurálva)
-7. JUnit teszt framework
-8. Tetszőleges mock library (Mockk konfigurálva)
-9. Mindenki készítsen saját fork-ot a repository-ról és ott dolgozzon (innen tudom majd ellenőrizni)
-
 ## Szorgalmi feladat
 - Nem csak konzolra írni az eredményt, hanem az alkalmazás (egyszerű webszerver) egy html oldalon elérhetővé teszi azt.
 - Nem (csak) Spring Boot, hanem Kotlin-os framework-ok használata (Ktor, kotlinx.serialization, stb)
 
-## Határidő
-2024.07.01
+# Megavlósítás
 
-## Gradle taskok
+Kotlin multiplatform project ktor + kotlinjs. 
 
-Alkalmazás indítása (Spring boot esetén): `gradlew bootRun`
+## Alkalmazás futtatása:
 
-Automata tesztek: `gradlew check`
+```shell
+./gradlew runShadow
+```
+
+```shell
+open http://localhost:8080
+```
 
 

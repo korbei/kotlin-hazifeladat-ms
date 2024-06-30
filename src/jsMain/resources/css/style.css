@@ -1,0 +1,52 @@
+:root {
+    --color1: #2e3440;
+    --color2: #3b4252;
+    --color3: #434c5e;
+    --color4: #4c566a;
+    --text-color: #a8b6d2;
+
+    --font-size-small: 10px;
+
+    --box-shadow-1: 0 2px 4px rgba(12, 12, 12, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: var(--color1);
+    color: var(--text-color);
+    padding: 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.date-selector {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--color2);
+}
+
+.date-selector:hover {
+    background: var(--color4);
+
+}
